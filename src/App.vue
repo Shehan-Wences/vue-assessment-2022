@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/challenge-1">Challenge 1</router-link> | 
@@ -8,6 +9,7 @@
       <router-link to="/final">Final</router-link>
     </div>
     <router-view/>
+    <img id="insect" :src="require('./assets/insect.png')"/>
   </div>
 </template>
 
@@ -31,5 +33,11 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+#insect{
+  position: absolute;
+  height:300px;
+  right: 0px;
+  bottom: 0px;
 }
 </style>

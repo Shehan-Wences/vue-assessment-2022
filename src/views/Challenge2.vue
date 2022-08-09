@@ -9,7 +9,7 @@
   import Component1 from '@/components/Component1'
 
   export default {
-    name: 'Challenge2',
+    name: 'Challenge1',
     components: {
       Component1
     },

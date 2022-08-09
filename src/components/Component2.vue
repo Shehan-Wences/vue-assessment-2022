@@ -2,6 +2,7 @@
     <div>
         <p>{{ msg[0] }}</p>
         <p>{{ msg[1] }}</p>
+        
     </div>
 </template>
 
